@@ -44,12 +44,12 @@
 ```php
 namespace App\Models;
 
-use Rinvex\Subscriptions\Traits\HasPlanSubscriptions;
+use Rinvex\Subscriptions\Traits\HasSubscriptions;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
 {
-    use HasPlanSubscriptions;
+    use HasSubscriptions;
 }
 ```
 
